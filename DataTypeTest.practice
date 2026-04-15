@@ -1,0 +1,52 @@
+package chapter02;
+
+public class DataTypeTest {
+	public static void main(String[] args) {
+		/*
+		 * 정수형에서 int가 기본 타입으로 사용됨
+		 * byte, short 타입은 변수로 연산시 int로 자동 변환됨.  
+		 */
+		byte b1 = 3, b2 = 5;
+		//byte는 작은상자 (3,5넣음)
+		long l1 = 125;
+    // long은 큰상자(125넣음)
+		
+//		float를 선언할 경우 f, F를 붙여야 한다. 
+//실수형 (소수점 숫자)
+//float f1 = 3.14f, f2 = 3.14F;    // 4바이트 (f,F 필수!)
+//float f3 = 65536.256f;
+//중요! 3.14만 쓰면 double로 인식 → float 쓰려면 f나 F 붙여야 함!
+		
+    float f1 = 3.14f,  f2=3.14F;		 
+		float f3 = 65536.256f;
+		System.out.println("f1: "+f1);
+		System.out.println("f3: "+f3);
+		
+		//double d1 = 3.14, d2 = 3.14d, d3 = 3.14D;  // 8바이트 (더 정확)
+    //double d4 = 1.2345678901234567890;
+    //double은 정밀도 높음! f 안 붙여도 OK
+		double d1 = 3.14, d2=3.14d, d3= 3.14D;
+		double d4 = 1.2345678901234567890;
+		System.out.println("d4:"+d4);
+		
+		char c1='a';
+		
+//		java는 논리에 true, false의 값만 저장할 수 있다. 1 or 0은 저장할 수 없다.  
+//char c1 = 'a';          // 한 글자만!
+//boolean bl1 = true;     // true/false만!
+		boolean bl1 =true;
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
