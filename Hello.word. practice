@@ -1,0 +1,134 @@
+- 헬로 월드 노출- 
+package chapter01; 
+
+//패키지 선언, 이클래스(Hello)가 chapter01이라는 폴더(논리적묶음)에 속해있다는 뜻
+//import chapter01.Hello; 로 다른 파일에서 쓸 수 있음
+//chapter01/          실제구조
+// └── Hello.java
+
+public class Hello {
+//Hello라는 클래스 정의
+//public -> 어디서든 접근 가능 
+//파일명 = 클래스명 
+//.ex) Hello.jave o , Test.java x 
+//자바는 모든 코드가 클래스 안에 있어야 한다. 
+//중요한 점은 모든 클래스가 무조건 파일명과 같아야 하는 건 아니고, 
+// -> public으로 선언된 클래스만 그 규칙을 따라야 한다
+//자바는 대부분의 코드가 class { ... } 안에 들어가야 해요. 예를 들면 변수, 메서드, 실행 코드가 클래스 내부에 있어야 하고, 
+//클래스 밖에는 보통 선언문이나 패키지 선언, 
+//import 같은 것만 올 수 있음.
+//변수 = 데이터 저장 상자
+//메서드 = 기능/동작
+//클래스 = 이 변수와 메서드를 담는 큰 틀
+
+🏠 클래스 (Hello.java)
+       ╔═══════════════════╗
+       ║  📦 변수들        ║  ← 데이터 저장 상자들
+       ║  age = 20         ║  
+       ║  name = "민수"    ║
+       ║                   ║
+       ║  ⚙️ 메서드들       ║  ← 기능들
+       ║  sayHello()       ║
+       ║  calculateAge()   ║
+       ╚═══════════════════╝
+       🎂 객체1      🎂 객체2
+  ╔══════╗     ╔══════╗
+  ║age:25║     ║age:30║
+  ║name:철수║  ║name:영희║
+  ║sayHi()║   ║sayHi()║
+  ╚══════╝     ╚══════╝
+  
+public static void main(String[] args) {<- 프로그램 시작버튼 실제로 일하
+//public->jvm이 접근해야 하니까 공개 
+//static : 객체 생성 없이 실행 가능-> new Hello() 안해도 실행 가능
+//void <- 리턴값 없음
+//main <- jvm이 무조건 찾는 이름 (시작점)
+//String[]args <-실행 할 때 외부에서 주는 데이터 (옵션)
+// { 메서드 시작 
+
+		
+		System.out.println("Hello.main()");
+    실행 결과 Hello.main() 줄바꿈
+    //println () : () 안 내용을 출력+'줄바꿈 까지 
+		System.out.print("1");
+    //바로 다음줄이 이어서 ()내용이 출력되는데 ()안에 ""이므로 ""안에 내용 나옴. 줄바꿈 x
+    //ex) 
+    print vs println 차이:
+    print("A"); print("B"); println("C");
+    결과:
+    ABC↵  👈 한 줄에 붙어서 C만 줄바꿈
+		
+		String name ="ureca";
+    //String <- 문자열을 저장할 수있는 상자 타입, 한번쓰면 못고치는 종이
+    vs StringBuilder = 지우고 다시쓸 수 있는 노트 
+    //name <- 상자이름(변수명)
+    //= 넣어줌
+    //"ureca" <- 실제 데이터(문자열 리터럴)
+    //메모리상황 ↓
+        [ name ] ──► "ureca"
+		for (int i = 0; i < 2111111111; i++) {
+			name += i;
+      //for문 3단계 완전 분해:
+
+1. int i = 0;     ← 카운터 i를 0부터 시작
+2. i < 2111111111 ← i가 21억 넘기 전까지 반복
+3. i++            ← 1번 돌때마다 i+1
+
+실행 순서 그림:
+1회차: i=0 → 조건참 → name+=0 → i=1
+2회차: i=1 → 조건참 → name+=1 → i=2
+3회차: i=2 → 조건참 → name+=2 → i=3
+...
+21억회차: i=2111111110 → 조건참 → name+=... → i=2111111111
+                           ↓
+                    i<21억? → 거짓 → for문 종료
++= 뜻: "name = name + i" 의 약자
+
+1회차 (i=0):
+name = "ureca" + 0 → "ureca0"
+
+2회차 (i=1): 
+name = "ureca0" + 1 → "ureca01"
+
+3회차 (i=2):
+name = "ureca01" + 2 → "ureca012"
+-> 상세 
+실행 순서:
+1. println("Hello.main()") → "Hello.main()"
+2. print("1")            → "1" (바로 붙음)  
+3. name = "ureca"
+4. for문 시작:
+   ├─ i=0: name="ureca0" → println → "ureca0"
+   ├─ i=1: name="ureca01"→ println → "ureca01"
+   ├─ i=2: name="ureca012"→ println → "ureca012"
+   └─ ... 계속 반복
+  
+
+! 치명적 문제:
+- String은 불변(immutable) → 매번 새 객체 생성
+- 21억번 = 21억개 문자열 객체 = 메모리 폭발 !
+매 반복마다 name 출력:
+1회차: ureca0↵
+2회차: ureca01↵
+3회차: ureca012↵
+...
+21억회차: ureca0123...↵
+-> 콘솔이 21억줄 출력받으려다 죽음 <-
+
+                    
+			System.out.println(name);
+실무는 -> 
+// 1. 반복 횟수 줄이기
+for (int i = 0; i < 10; i++) {  // 10번만
+
+// 2. StringBuilder 사용 (권장)
+StringBuilder sb = new StringBuilder("ureca");
+for (int i = 0; i < 10; i++) {
+    sb.append(i);  // 효율적 연결
+}
+String name = sb.toString();
+
+      
+		}
+	}
+}
