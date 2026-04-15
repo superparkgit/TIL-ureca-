@@ -1,0 +1,35 @@
+형변환 연습
+
+자동 형변환 (작은 → 큰)
+byte(1바이트) → short(2) → int(4) → long(8) → float → double
+                    ↑
+                 char(2)
+
+package chapter02;
+
+/**
+* 자동으로 형변화환 되는 경우
+* byte => short => int => long => float => double
+* char
+*
+* - casting
+* 명시적으로 형변환
+* (변환할타입)값;
+*
+*/
+public class TypeCastTest {
+public static void main(String[] args) {
+byte b1 = 3, b2=5;
+byte b1 = 3, b2 = 5;
+// b1 + b2 하면 자동으로 int로 변환됨!
+//int result = b1 + b2;  // 8 (자동 형변환)
+
+// 명시적 형변환 (큰 → 작은)
+byte b3 = (byte)(b1+b2);
+// <- (byte) 강제 변환!
+ // 에러 발생!
+        // byte b4 = b1 + b2;  x 컴파일 에러!
+
+
+}
+}
