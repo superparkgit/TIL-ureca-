@@ -1,0 +1,98 @@
+package chapter03;
+
+public class OperatorTest {
+public static void main(String[] args)
+     │      │     │    │      │
+     │      │     │    │      └─ 실행 시 받는 데이터들
+     │      │     │    └─────── 배열 (여러개 문자열)
+     │      │     └────────── JVM이 찾는 **고정 이름**
+     │      └─────────────── 아무것도 안 돌려줌
+     └─────────────────── new 없이 바로 실행 가능
+
+부분	                  의미	                 왜 필요한가
+public                	공개	            JVM이 접근해야 하니까
+static	                정적	           new 객체생성 없이 실행
+void	               반환없음	            프로그램 끝나면 종료
+main	               고정이름	         JVM이 무조건 이 이름 찾음
+String[] args     	명령줄 인자	       java 파일명 값1 값2 입력받음
+
+기능	                  언제                      	예시
+static	          공통 기능, 시작점      	Math.random(), main()
+void	             출력/화면 변경만	       System.out.println()
+main	               프로그램 시작          	모든 자바 프로그램!
+args	               설정값 받기          	java 파일명 -port 8080
+
+정적 = 📦 "클래스 자체"에 있는 것 (객체 안 만들어도 사용 가능)
+동적 = 🏠 "각 객체"마다 따로 있는 것 (객체 만들어야 사용 가능)
+
+클래스 Person
+├── 📦 static 변수 (공유)
+├── 📦 static 메서드 (공유)  ← main은 여기!
+├── 🏠 객체1 (철수)
+│   ├── 나이: 25
+│   └── 인사하기()
+└── 🏠 객체2 (영희)  
+    ├── 나이: 30
+    └── 인사하기()
+
+❌ 일반 메서드: 객체 먼저 만들어야 호출
+Person 철수 = new Person();
+철수.인사하기();  // 객체 있어야 실행
+
+✅ static 메서드: 클래스 이름으로 바로 호출
+Person.공유메서드();  // 객체 없이 실행!
+
+{
+// >>  : sign  bit를 유지하면서 오른쪽으로 1비트 이동  2의 n승으로 나눈 효과 
+// >> = 오른쪽으로 밀면서 왼쪽 끝은 부호비트(최상위비트)로 채움
+int n1 = 8; // 2진수: 000...00001000
+int n2 = -8; // 2진수: 111...11111000 (부호비트 1)
+
+System.out.println(" 8 >> 1 : "+(n1 >>1)); // 4 (8÷2)
+System.out.println(" -8 >> 1 : "+(n2 >>1)); // -4 (부호 유지)
+
+// >>> :  오른쪽으로 1비트 이동, 왼쪽에는 0이 채워진다. → 음수도 양수됨!
+// >>> (논리 우측 시프트, 0으로 채움)
+System.out.println(" 8 >>> 1 : "+(n1 >>>1));
+System.out.println(" -8 >>> 1 : "+(n2 >>>1));
+
+
+// << :  왼쪽으로 비트 이동 , 오른쪽에는 0채워진다 -> 2의 n승으로 곱한 효과
+//<< (왼쪽 시프트, 곱하기 효과)
+System.out.println("8 << 1 : "+(n1 <<1));
+System.out.println("-8 << 1 : "+(n2 <<1));
+
+
+/*
+ *&& &|||
+ * false falsefalsefalsefalsefalse
+ * false truefalsefalsetruetrue
+ * truefalsefalsefalsetruetrue
+ * true truetruetruetruetrue
+ *  
+ */
+int  i = 10, j = 5;
+
+boolean result = i++>10 & j++>5;
+//boolean result = i++>10 & j++>5;
+
+%b → boolean (true/false)
+%d → 정수 출력
+%f → 실수 출력  
+%s → 문자열
+%c → 문자
+
+/* %d : 정수      %자리수d 
+ * %f : 실수      %.자리수f: 실수의 소수 자리수 표현
+ * %s : 문자열 %c : 소문자 %C : 대문자
+ * %b : 논리 
+ */
+System.out.printf("result: %b  i:%d  j:%d", result, i, j);
+}
+}
+
+
+
+
+
+
