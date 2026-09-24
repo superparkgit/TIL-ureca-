@@ -1,2 +1,21 @@
 # TIL-ureca-
-Daily TIL repository for studying IT, programming, and computer science
+
+Java·Spring·CS와 공대 편입수학을 공부하며 직접 이해한 내용을 기록하는 저장소입니다.
+
+## 학습 기록
+
+### Java
+
+- [2026-09-25 · String과 StringBuilder](java/2026-09-25-string-vs-stringbuilder.md)
+
+### 편입수학
+
+- [2026-09-25 · 이차함수의 꼭짓점과 대칭축](math/2026-09-25-quadratic-vertex.md)
+
+## 기록 원칙
+
+- 개념을 자신의 말로 다시 설명합니다.
+- 실행 가능한 예제와 핵심 질문을 함께 남깁니다.
+- 수학은 풀이 과정을 생략하지 않고 오답 원인을 기록합니다.
+- 강의·교재 원문을 복제하지 않고 직접 작성한 요약만 공개합니다.
+- 비밀번호, 토큰, 개인정보와 공개 전 특허 아이디어는 기록하지 않습니다.
