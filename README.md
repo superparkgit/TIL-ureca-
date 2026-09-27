@@ -8,11 +8,13 @@ Java·Spring·CS와 공대 편입수학을 공부하며 직접 이해한 내용�
 
 - [2026-09-25 · String과 StringBuilder](java/2026-09-25-string-vs-stringbuilder.md)
 - [2026-09-26 · 배열 순회와 최솟값·최댓값](java/2026-09-26-array-min-max.md)
+- [2026-09-28 · 값과 인덱스를 함께 추적하기](java/2026-09-28-value-index-tracking.md)
 
 ### 편입수학
 
 - [2026-09-25 · 이차함수의 꼭짓점과 대칭축](math/2026-09-25-quadratic-vertex.md)
 - [2026-09-26 · 이차방정식의 판별식](math/2026-09-26-quadratic-discriminant.md)
+- [2026-09-28 · 근의 공식과 검산](math/2026-09-28-quadratic-formula.md)
 
 ## 기록 원칙
 
