@@ -11,6 +11,7 @@ Java·Spring·CS와 공대 편입수학을 공부하며 직접 이해한 내용�
 - [2026-09-28 · 값과 인덱스를 함께 추적하기](java/2026-09-28-value-index-tracking.md)
 - [2026-09-29 · 조건 필터링과 출력 버퍼](java/2026-09-29-filtering-output-buffer.md)
 - [2026-09-30 · 고정 범위 중복 판별: boolean[]과 Set](java/2026-09-30-distinct-boolean-set.md)
+- [2026-10-01 · 표시하고 다시 순회해 누락 값 찾기](java/2026-10-01-mark-and-scan.md)
 
 ### 편입수학
 
@@ -19,6 +20,7 @@ Java·Spring·CS와 공대 편입수학을 공부하며 직접 이해한 내용�
 - [2026-09-28 · 근의 공식과 검산](math/2026-09-28-quadratic-formula.md)
 - [2026-09-29 · 이차방정식의 근과 계수](math/2026-09-29-roots-and-coefficients.md)
 - [2026-09-30 · 이차방정식 종합 복습](math/2026-09-30-quadratic-review.md)
+- [2026-10-01 · 이차방정식 오답 점검](math/2026-10-01-quadratic-error-check.md)
 
 ## 기록 원칙
 
