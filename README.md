@@ -13,6 +13,7 @@ Java·Spring·CS와 공대 편입수학을 공부하며 직접 이해한 내용�
 - [2026-09-30 · 고정 범위 중복 판별: boolean[]과 Set](java/2026-09-30-distinct-boolean-set.md)
 - [2026-10-01 · 표시하고 다시 순회해 누락 값 찾기](java/2026-10-01-mark-and-scan.md)
 - [2026-10-02 · 배열 구간 갱신과 덮어쓰기](java/2026-10-02-array-range-update.md)
+- [2026-10-04 · 배열의 두 값을 안전하게 교환하기](java/2026-10-04-array-swap.md)
 
 ### 편입수학
 
@@ -23,6 +24,7 @@ Java·Spring·CS와 공대 편입수학을 공부하며 직접 이해한 내용�
 - [2026-09-30 · 이차방정식 종합 복습](math/2026-09-30-quadratic-review.md)
 - [2026-10-01 · 이차방정식 오답 점검](math/2026-10-01-quadratic-error-check.md)
 - [2026-10-02 · 이차방정식 풀이법 선택하기](math/2026-10-02-quadratic-method-choice.md)
+- [2026-10-04 · 이차방정식 핵심 진단](math/2026-10-04-quadratic-checkpoint.md)
 
 ## 기록 원칙
 
