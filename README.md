@@ -18,6 +18,7 @@ Java·Spring·CS와 공대 편입수학을 공부하며 직접 이해한 내용�
 - [2026-10-06 · Java 정수 나눗셈과 실수 연산](java/2026-10-06-integer-double-division.md)
 - [2026-10-07 · Java 문자열을 문자 단위로 순회하기](java/2026-10-07-string-char-iteration.md)
 - [2026-10-08 · 미등장 상태와 첫 위치 기록](java/2026-10-08-sentinel-first-position.md)
+- [2026-10-10 · 문자열 비교와 조기 종료](java/2026-10-10-early-exit.md)
 
 ### 편입수학
 
@@ -33,6 +34,7 @@ Java·Spring·CS와 공대 편입수학을 공부하며 직접 이해한 내용�
 - [2026-10-06 · 이차방정식의 해를 대입으로 검산하기](math/2026-10-06-substitution-check.md)
 - [2026-10-07 · 이차방정식 주간 핵심 복습](math/2026-10-07-quadratic-weekly-review.md)
 - [2026-10-08 · 후보 해의 오류 찾기](math/2026-10-08-candidate-roots.md)
+- [2026-10-10 · 방정식의 해와 그래프 교점](math/2026-10-10-roots-intersections.md)
 
 ## 기록 원칙
 
