@@ -22,6 +22,7 @@ Java·Spring·CS와 공대 편입수학을 공부하며 직접 이해한 내용�
 - [2026-10-11 · 상태가 바뀌는 순간 세기](java/2026-10-11-state-transition.md)
 - [2026-10-12 · 빈도 배열](java/2026-10-12-frequency-array.md)
 - [2026-10-13 · 조건을 만족할 때만 누적하기](java/2026-10-13-conditional-count.md)
+- [2026-10-14 · 연속 상태와 누적 결과](java/2026-10-14-streak-state.md)
 
 ### 편입수학
 
@@ -41,6 +42,7 @@ Java·Spring·CS와 공대 편입수학을 공부하며 직접 이해한 내용�
 - [2026-10-11 · 이차함수 대칭축으로 검산하기](math/2026-10-11-symmetry-review.md)
 - [2026-10-12 · 이차함수 최솟값 확인하기](math/2026-10-12-quadratic-minimum.md)
 - [2026-10-13 · 계수가 있는 완전제곱식](math/2026-10-13-completing-square-coefficient.md)
+- [2026-10-14 · 완전제곱식 전개 검산](math/2026-10-14-expansion-check.md)
 
 ## 기록 원칙
 
