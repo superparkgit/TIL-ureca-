@@ -24,6 +24,7 @@ Java·Spring·CS와 공대 편입수학을 공부하며 직접 이해한 내용�
 - [2026-10-13 · 조건을 만족할 때만 누적하기](java/2026-10-13-conditional-count.md)
 - [2026-10-14 · 연속 상태와 누적 결과](java/2026-10-14-streak-state.md)
 - [2026-10-15 · 배열과 문자열 길이 문법](java/2026-10-15-length-syntax.md)
+- [2026-10-17 · char 덧셈과 문자열 연결](java/2026-10-17-char-addition.md)
 
 ### 편입수학
 
@@ -45,6 +46,7 @@ Java·Spring·CS와 공대 편입수학을 공부하며 직접 이해한 내용�
 - [2026-10-13 · 계수가 있는 완전제곱식](math/2026-10-13-completing-square-coefficient.md)
 - [2026-10-14 · 완전제곱식 전개 검산](math/2026-10-14-expansion-check.md)
 - [2026-10-15 · 꼭짓점 형태의 부호 읽기](math/2026-10-15-vertex-reading.md)
+- [2026-10-17 · 이차함수의 두 표현](math/2026-10-17-equivalent-forms.md)
 
 ## 기록 원칙
 
