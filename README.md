@@ -27,6 +27,7 @@ Java·Spring·CS와 공대 편입수학을 공부하며 직접 이해한 내용�
 - [2026-10-17 · char 덧셈과 문자열 연결](java/2026-10-17-char-addition.md)
 - [2026-10-18 · 문자 코드와 숫자 값](java/2026-10-18-char-code-value.md)
 - [2026-10-19 · Arrays.sort와 원본 변경](java/2026-10-19-arrays-sort.md)
+- [2026-10-20 · 평균과 중앙값](java/2026-10-20-mean-median.md)
 
 ### 편입수학
 
@@ -51,6 +52,7 @@ Java·Spring·CS와 공대 편입수학을 공부하며 직접 이해한 내용�
 - [2026-10-17 · 이차함수의 두 표현](math/2026-10-17-equivalent-forms.md)
 - [2026-10-18 · 이차함수 개념 점검](math/2026-10-18-quadratic-concept-check.md)
 - [2026-10-19 · 꼭짓점과 근 구별하기](math/2026-10-19-vertex-vs-roots.md)
+- [2026-10-20 · 이차함수 반례 찾기](math/2026-10-20-quadratic-counterexample.md)
 
 ## 기록 원칙
 
