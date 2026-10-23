@@ -30,6 +30,7 @@ Java·Spring·CS와 공대 편입수학을 공부하며 직접 이해한 내용�
 - [2026-10-20 · 평균과 중앙값](java/2026-10-20-mean-median.md)
 - [2026-10-21 · 순위와 배열 인덱스](java/2026-10-21-rank-index.md)
 - [2026-10-22 · 문자 정렬과 역순 출력](java/2026-10-22-char-sort-reverse.md)
+- [2026-10-23 · 이진 탐색](java/2026-10-23-binary-search.md)
 
 ### 편입수학
 
@@ -57,6 +58,7 @@ Java·Spring·CS와 공대 편입수학을 공부하며 직접 이해한 내용�
 - [2026-10-20 · 이차함수 반례 찾기](math/2026-10-20-quadratic-counterexample.md)
 - [2026-10-21 · 최솟값과 실근 개수](math/2026-10-21-minimum-and-roots.md)
 - [2026-10-22 · 중근과 그래프](math/2026-10-22-double-root.md)
+- [2026-10-23 · 이차방정식 짧은 진단](math/2026-10-23-quadratic-small-check.md)
 
 ## 기록 원칙
 
