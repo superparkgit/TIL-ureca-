@@ -32,6 +32,7 @@ Java·Spring·CS와 공대 편입수학을 공부하며 직접 이해한 내용�
 - [2026-10-22 · 문자 정렬과 역순 출력](java/2026-10-22-char-sort-reverse.md)
 - [2026-10-23 · 이진 탐색](java/2026-10-23-binary-search.md)
 - [2026-10-24 · 표준 이진 탐색 반환값](java/2026-10-24-binary-search-return.md)
+- [2026-10-25 · HashMap 빈도 집계](java/2026-10-25-map-frequency.md)
 
 ### 편입수학
 
@@ -61,6 +62,7 @@ Java·Spring·CS와 공대 편입수학을 공부하며 직접 이해한 내용�
 - [2026-10-22 · 중근과 그래프](math/2026-10-22-double-root.md)
 - [2026-10-23 · 이차방정식 짧은 진단](math/2026-10-23-quadratic-small-check.md)
 - [2026-10-24 · 판별식 부호 점검](math/2026-10-24-discriminant-sign.md)
+- [2026-10-25 · 매개변수와 실근 조건](math/2026-10-25-parameter-discriminant.md)
 
 ## 기록 원칙
 
