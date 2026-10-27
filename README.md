@@ -34,6 +34,7 @@ Java·Spring·CS와 공대 편입수학을 공부하며 직접 이해한 내용�
 - [2026-10-24 · 표준 이진 탐색 반환값](java/2026-10-24-binary-search-return.md)
 - [2026-10-25 · HashMap 빈도 집계](java/2026-10-25-map-frequency.md)
 - [2026-10-26 · Set과 Map 선택](java/2026-10-26-set-vs-map.md)
+- [2026-10-27 · Set 조회와 List 정렬](java/2026-10-27-set-list-sort.md)
 
 ### 편입수학
 
@@ -65,6 +66,7 @@ Java·Spring·CS와 공대 편입수학을 공부하며 직접 이해한 내용�
 - [2026-10-24 · 판별식 부호 점검](math/2026-10-24-discriminant-sign.md)
 - [2026-10-25 · 매개변수와 실근 조건](math/2026-10-25-parameter-discriminant.md)
 - [2026-10-26 · 실근 조건 문장 해석](math/2026-10-26-root-condition-language.md)
+- [2026-10-27 · 판별식과 범위 분류](math/2026-10-27-root-partition.md)
 
 ## 기록 원칙
 
